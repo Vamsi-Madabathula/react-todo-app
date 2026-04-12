@@ -42,7 +42,7 @@ react-todo
 4. Clicking **Delete** removes the task from the array using `filter()`.
 
 <img width="749" height="260" alt="image" src="https://github.com/user-attachments/assets/856e6941-bc49-4330-a46a-690882c77e07" />
-![App Screenshot](./screenshot.png)
+
 
 ## 📸 Future Improvements
 

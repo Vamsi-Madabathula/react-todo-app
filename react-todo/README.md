@@ -1,16 +1,70 @@
-# React + Vite
+# React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A To-Do List application built using **React**.
+This project allows users to add and delete tasks dynamically.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new tasks
+* Delete tasks
+* Dynamic task rendering using React
+* Simple and clean UI
+* Component-based architecture
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript (ES6)
+* CSS
+* Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+react-todo
+│
+├── src
+│   ├── components
+│   │   └── todo-list.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+## 📌 How It Works
+
+1. Users enter a task in the input field.
+2. Clicking the **Add** button stores the task in a state array.
+3. The task list is rendered using the `map()` function.
+4. Clicking **Delete** removes the task from the array using `filter()`.
+
+<img width="749" height="260" alt="image" src="https://github.com/user-attachments/assets/856e6941-bc49-4330-a46a-690882c77e07" />
+<img width="719" height="334" alt="image" src="https://github.com/user-attachments/assets/78d8d0db-6a77-42c5-8afc-1a6b708fe0c5" />
+
+
+## 📸 Future Improvements
+
+* Edit tasks
+* Mark tasks as completed
+* Save tasks using LocalStorage
+* Improve UI/UX
+
+
+## ⚙️ Installation
+
+1. Clone the repository      ```git clone https://github.com/Vamsi-Madabathula/react-todo.git```
+2. Navigate to the project folder    ```cd react-todo```
+3. Install dependencies    ```npm instal```
+4. Start the development server   ```npm run dev```
+5. Open in browser```http://localhost:5173```
+
+## 👨‍💻 Author
+
+**Vamsi**
+
+## 📄 License
+
+This project is open-source and available for learning purposes.

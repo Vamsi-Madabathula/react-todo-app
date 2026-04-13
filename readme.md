@@ -36,6 +36,8 @@ react-todo
 
 ## 📌 How It Works
 
+site is live at https://vamsi-madabathula.github.io/react-todo-app/
+
 1. Users enter a task in the input field.
 2. Clicking the **Add** button stores the task in a state array.
 3. The task list is rendered using the `map()` function.
